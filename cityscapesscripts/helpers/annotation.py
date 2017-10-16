@@ -96,12 +96,12 @@ class CsObject:
         return objDict
 
     def updateDate( self ):
-        try:
-            locale.setlocale( locale.LC_ALL , 'en_US' )
-        except locale.Error:
-            locale.setlocale( locale.LC_ALL , 'us_us' )
-        except:
-            pass
+        # try:
+        #     locale.setlocale( locale.LC_ALL , 'en_US' )
+        # except locale.Error:
+        #     locale.setlocale( locale.LC_ALL , 'us_us' )
+        # except:
+        #     pass
         self.date = datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S")
 
     # Mark the object as deleted

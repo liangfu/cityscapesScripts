@@ -652,7 +652,7 @@ class CityscapesLabelTool(QtGui.QMainWindow):
         message  = "Select city for editing"
         question = "Which city would you like to edit?"
         self.statusBar().showMessage(message)
-
+        
         if items:
 
             # Create and wait for dialog

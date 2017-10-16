@@ -95,6 +95,7 @@ labels = [
     Label(  'motorcycle'           , 32 ,       17 , 'vehicle'         , 7       , True         , False        , (  0,  0,230) ),
     Label(  'bicycle'              , 33 ,       18 , 'vehicle'         , 7       , True         , False        , (119, 11, 32) ),
     Label(  'license plate'        , -1 ,       -1 , 'vehicle'         , 7       , False        , True         , (  0,  0,142) ),
+    Label(  'lane marking'         , 34 ,       19 , 'vehicle'         , 1       , False        , True         , (192, 64,192) ),
 ]
 
 
